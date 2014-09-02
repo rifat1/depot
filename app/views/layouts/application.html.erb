@@ -9,8 +9,17 @@
 <body class='<%= params[:controller] %>'>
 
 <div id="banner">
+
+  <%= form_tag(store_index_path, class: 'locale', :method => :get) do %>
+      <%= select_tag 'set_locale',
+                     options_for_select(LANGUAGES, I18n.locale.to_s),
+                     onchange: 'this.form.submit()' %>
+      <%= submit_tag 'submit' %>
+      <%= javascript_tag "$('.locale input').hide()" %>
+  <% end %>
+
   <%= image_tag("logo.png") %>
-  <%= @page_title || "Pragmatic Bookshelf" %>
+  <%= @page_title || t('.title') %>
 </div>
 <div id="columns">
   <div id="side">
@@ -22,11 +31,11 @@
       <% end %>
     </div>
     <ul>
-      <li><a href="<%= root_path %>">Home</a></li>
-      <li><a href="<%= carts_path%>">Carts</a></li>
-      <li><a href="<%= products_path %>">Add Products</a></li>
-      <li><a href="<%= orders_path %>">Orders List</a></li>
-      <li><a href="<%= new_user_path %>">User Registration</a></li>
+      <li><a href="<%= root_path %>"><%= t('.home') %></a></li>
+      <li><a href="<%= carts_path%>"><%= t('.cart') %></a></li>
+      <li><a href="<%= products_path %>"><%= t('.add_prod') %></a></li>
+      <li><a href="<%= orders_path %>"><%= t('.order_list') %></a></li>
+      <li><a href="<%= new_user_path %>"><%= t('.reg') %></a></li>
 
     </ul>
 

@@ -4,6 +4,6 @@ one:
   product: ruby
   order: one
 
- two:
+two:
   product: ruby
   cart: one
