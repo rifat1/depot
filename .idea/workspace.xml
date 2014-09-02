@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b37b528-4cd9-443f-8365-5afd98151c74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/es.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/carts/_cart.html.erb" afterPath="$PROJECT_DIR$/app/views/carts/_cart.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/orders/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/depot.iml" afterPath="$PROJECT_DIR$/.idea/depot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/i18n.rb" afterPath="$PROJECT_DIR$/config/initializers/i18n.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/index.html.erb" afterPath="$PROJECT_DIR$/app/views/store/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/line_items.yml" afterPath="$PROJECT_DIR$/test/fixtures/line_items.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/orders/new.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/order_notifier.rb" afterPath="$PROJECT_DIR$/app/mailers/order_notifier.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/store_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/store_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/product_test.rb" afterPath="$PROJECT_DIR$/test/models/product_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="depot.iws" />
@@ -51,36 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="es.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/es.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1395">
-              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carts_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1048" max-vertical-offset="1530">
-              <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="705">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="orders_controller_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/controllers/orders_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,21 +64,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order_notifier.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="order_notifier.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/mailers/order_notifier.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.83776593" vertical-offset="0" max-vertical-offset="465">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="received.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/order_notifier/received.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/models/product_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66246057" vertical-offset="585" max-vertical-offset="1185">
-              <caret line="53" column="68" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1185">
+              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -214,8 +177,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/test/fixtures/line_items.yml" />
         <option value="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" />
-        <option value="$PROJECT_DIR$/app/mailers/order_notifier.rb" />
         <option value="$PROJECT_DIR$/test/models/product_test.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/order_notifier.rb" />
       </list>
     </option>
   </component>
@@ -684,10 +647,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1305" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33121526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28355837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37151703" sideWeight="0.50039715" order="11" side_tool="true" content_ui="tabs" />
@@ -695,7 +658,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.49960285" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39009288" sideWeight="0.49960285" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3359133" sideWeight="0.49960285" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55417955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -749,40 +712,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.2/gems/activemodel-4.1.5/lib/active_model/secure_password.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1905">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="900">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140901093604_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="329">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/load_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
@@ -1111,6 +1044,209 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/products.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Ruby/ProductTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Ruby</ID>
+          <OriginalElement>ProductTest</OriginalElement>
+          <nodes>
+            <node x="627.5" y="344.0">ProductTest</node>
+            <node x="723.5" y="81.0">Minitest::Runnable</node>
+            <node x="819.0" y="162.0">ActiveSupport::Testing::TimeHelpers</node>
+            <node x="288.83333333333337" y="0.0">ActiveSupport::Concern</node>
+            <node x="638.5" y="263.0">ActiveSupport::TestCase</node>
+            <node x="0.0" y="162.0">ActiveSupport::Testing::TaggedLogging</node>
+            <node x="962.0" y="162.0">ActiveSupport::Testing::Assertions</node>
+            <node x="153.83333333333337" y="81.0">ActiveSupport::Callbacks</node>
+            <node x="88.83333333333337" y="0.0">ActiveSupport::DescendantsTracker</node>
+            <node x="601.0" y="162.0">Minitest::Test</node>
+            <node x="686.0" y="162.0">ActiveSupport::Testing::Declarative</node>
+            <node x="563.5" y="81.0">Minitest::Test::LifecycleHooks</node>
+            <node x="326.5" y="81.0">ActiveRecord::TestFixtures</node>
+            <node x="163.0" y="162.0">ActiveSupport::Testing::SetupAndTeardown</node>
+            <node x="842.5" y="81.0">Minitest::Assertions</node>
+            <node x="1088.0" y="162.0">ActiveSupport::Testing::Deprecation</node>
+            <node x="467.5" y="81.0">Minitest::Guard</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ActiveSupport::Testing::SetupAndTeardown" target="ActiveSupport::Concern">
+              <point x="43.5" y="-15.5" />
+              <point x="293.5" y="142.0" />
+              <point x="316.0" y="142.0" />
+              <point x="316.0" y="56.0" />
+              <point x="335.83333333333337" y="56.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::Testing::SetupAndTeardown" target="ActiveSupport::Callbacks">
+              <point x="-43.5" y="-15.5" />
+              <point x="206.5" y="142.0" />
+              <point x="203.83333333333337" y="142.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::TestCase" target="ActiveSupport::Testing::Assertions">
+              <point x="30.9375" y="-15.5" />
+              <point x="718.9375" y="233.0" />
+              <point x="1015.0" y="233.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::TestCase" target="ActiveSupport::Testing::SetupAndTeardown">
+              <point x="-30.9375" y="-15.5" />
+              <point x="657.0625" y="233.0" />
+              <point x="250.0" y="233.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::TestCase" target="ActiveSupport::Testing::Deprecation">
+              <point x="43.3125" y="-15.5" />
+              <point x="731.3125" y="243.0" />
+              <point x="1148.5" y="243.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="Minitest::Test" target="Minitest::Assertions">
+              <point x="26.0" y="-15.5" />
+              <point x="659.5" y="142.0" />
+              <point x="895.5" y="142.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::TestCase" target="ActiveSupport::Testing::TimeHelpers">
+              <point x="18.5625" y="-15.5" />
+              <point x="706.5625" y="223.0" />
+              <point x="880.5" y="223.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="ProductTest" target="ActiveSupport::TestCase">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="Minitest::Test" target="Minitest::Test::LifecycleHooks">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::TestCase" target="Minitest::Test">
+              <point x="-6.1875" y="-15.5" />
+              <point x="681.8125" y="213.0" />
+              <point x="633.5" y="213.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="Minitest::Test" target="Minitest::Runnable">
+              <point x="13.0" y="-15.5" />
+              <point x="646.5" y="132.0" />
+              <point x="773.0" y="132.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::TestCase" target="ActiveRecord::TestFixtures">
+              <point x="-18.5625" y="-15.5" />
+              <point x="669.4375" y="223.0" />
+              <point x="387.0" y="223.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="Minitest::Test" target="Minitest::Guard">
+              <point x="-26.0" y="-15.5" />
+              <point x="607.5" y="142.0" />
+              <point x="486.5" y="142.0" />
+              <point x="-19.0" y="15.5" />
+            </edge>
+            <edge source="ActiveRecord::TestFixtures" target="ActiveSupport::Concern">
+              <point x="0.0" y="-15.5" />
+              <point x="387.0" y="56.0" />
+              <point x="367.1666666666667" y="56.0" />
+              <point x="31.333333333333314" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::Callbacks" target="ActiveSupport::Concern">
+              <point x="25.0" y="-15.5" />
+              <point x="228.83333333333337" y="56.0" />
+              <point x="304.50000000000006" y="56.0" />
+              <point x="-31.333333333333314" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::Callbacks" target="ActiveSupport::DescendantsTracker">
+              <point x="-25.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::TestCase" target="ActiveSupport::Testing::Declarative">
+              <point x="6.1875" y="-15.5" />
+              <point x="694.1875" y="213.0" />
+              <point x="742.5" y="213.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="ActiveSupport::TestCase" target="ActiveSupport::Testing::TaggedLogging">
+              <point x="-43.3125" y="-15.5" />
+              <point x="644.6875" y="243.0" />
+              <point x="71.5" y="243.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7962571196094385" x="599.4101778050276" y="303.4101778050276" />
+          <SelectedNodes>
+            <node>Minitest::Runnable</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/#depot">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>#depot</OriginalElement>
+          <nodes>
+            <node x="" y="">Order</node>
+            <node x="" y="">User</node>
+            <node x="" y="">Product</node>
+            <node x="" y="">LineItem</node>
+            <node x="" y="">Cart</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1339912280701754" x="281.9694977649225" y="126.08545884827771" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/77fe67f9-2cba-4a42-a6fd-accfa3a99b13">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>77fe67f9-2cba-4a42-a6fd-accfa3a99b13</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.1" x="2319.0" y="1571.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/product_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1185">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/order_notifier/received.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="376">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/mailers/order_notifier_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
@@ -1121,24 +1257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/order_notifier.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/products.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/product_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66246057" vertical-offset="585" max-vertical-offset="1185">
-          <caret line="53" column="68" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.83776593" vertical-offset="0" max-vertical-offset="465">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding />
         </state>
       </provider>
