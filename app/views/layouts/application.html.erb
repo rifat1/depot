@@ -8,7 +8,43 @@
 </head>
 <body class='<%= params[:controller] %>'>
 
-<%= yield %>
+<div id="banner">
+  <%= image_tag("logo.png") %>
+  <%= @page_title || "Pragmatic Bookshelf" %>
+</div>
+<div id="columns">
+  <div id="side">
+    <div id="cart" class="cart_container">
+      <% if @cart %>
+          <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
+              <%= render @cart %>
+          <% end %>
+      <% end %>
+    </div>
+    <ul>
+      <li><a href="<%= root_path %>">Home</a></li>
+      <li><a href="<%= carts_path%>">Carts</a></li>
+      <li><a href="<%= products_path %>">Add Products</a></li>
+      <li><a href="<%= orders_path %>">Orders List</a></li>
+      <li><a href="<%= new_user_path %>">User Registration</a></li>
+
+    </ul>
+
+    <% if session[:user_id] %>
+        <ul>
+          <li><%= link_to 'Orders', orders_path %></li>
+          <li><%= link_to 'Products', products_path %></li>
+          <li><%= link_to 'Users',users_path %></li>
+        </ul>
+    <%= button_to 'Logout', logout_path, method: :delete %>
+        <% end %>
+  </div>
+  <div id="main">
+
+    <%= yield %>
+
+  </div>
+</div>
 
 </body>
 </html>

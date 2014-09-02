@@ -1,0 +1,53 @@
+
+.store {
+  h1 {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font:  150% sans-serif;
+     color: #226;
+    border-bottom: 3px dotted #77d;
+  }
+
+
+  .entry {
+    overflow: auto;
+    margin-top: 1em;
+    border-bottom: 1px dotted #77d;
+    min-height: 120px;
+
+
+    img {
+      width: 120px;
+      height: 70px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      position: absolute;
+    }
+
+    h3 {
+      font-size: 120%;
+      font-family: sans-serif;
+      margin-left: 150px;
+      margin-top: 10px;
+      margin-bottom: 2px;
+      color: #443177;
+    }
+
+    p, div.price_line, .des {
+      margin-left: 150px;
+      margin-top: 0.5em;
+      margin-bottom: 0.8em;
+
+      form, div {
+        display: inline;
+      }
+    }
+
+    .price {
+      color: #44a;
+      font-weight: bold;
+      margin-right: 3em;
+    }
+  }
+}

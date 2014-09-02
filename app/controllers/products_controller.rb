@@ -1,4 +1,5 @@
 class ProductsController < ApplicationController
+  before_filter :authorize
   before_action :set_product, only: [:show, :edit, :update, :destroy]
 
   # GET /products
@@ -19,6 +20,7 @@ class ProductsController < ApplicationController
 
   # GET /products/1/edit
   def edit
+    # @product = Product.find params[:id]
   end
 
   # POST /products
@@ -61,6 +63,13 @@ class ProductsController < ApplicationController
     end
   end
 
+  def who_bought
+    @product = Product.find(params[:id])
+    respond_to do |format|
+      format.atom
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_product
@@ -69,8 +78,8 @@ class ProductsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def product_params
-      # params[:product]
+        # params[:product]
 
-       params.require(:product).permit(:title, :description, :image_url, :price)
+        params.require(:product).permit(:title, :description, :image_url, :price)
     end
 end

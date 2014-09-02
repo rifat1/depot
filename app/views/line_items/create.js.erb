@@ -1,0 +1,17 @@
+$("#notice").hide();
+
+$('#cart').html("<%=j render @cart %>");
+
+
+<% if @cart.line_items.present? && @cart.line_items.size == 1 && @cart.line_items.first.quantity == 1 %>
+//if ($('#cart tr').length == 2) {
+    $('.cart_container').hide();
+    $('.cart_container').show('blind', 2000);
+//}
+<% end %>
+//if ($('#cart tr').length == 2) { $('#cart').show('slide', 1000); }
+
+
+
+$('#current_item').css({'background-color':'#99FF66'}).
+animate({'background-color':'#114411'}, 2000);
